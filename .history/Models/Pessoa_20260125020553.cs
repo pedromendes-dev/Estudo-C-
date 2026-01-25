@@ -21,7 +21,7 @@ namespace Curso_CSharp.Models    // Namespace é uma forma de organizar as class
     public class Pessoa                             
     {                                       // comando prop + tab  gera a estrutura básica de uma propriedade (proriedade = atributo de uma classe) 
                // Seria as características que uma pessoa vai ter            
-        public string? Nome { get; set; }    // o get serve para obter (ler) o valor da propriedade, set serve para setar (atribuir) um novo valor à propriedade.
+        public string Nome { get; set; }    // o get serve para obter (ler) o valor da propriedade, set serve para setar (atribuir) um novo valor à propriedade.
         public int Idade { get; set; }
 
         public void Apresentar(){                     // método é uma ação que a classe pode realizar

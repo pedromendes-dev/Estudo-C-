@@ -24,7 +24,7 @@ namespace Curso_CSharp.Models    // Namespace é uma forma de organizar as class
         public string? Nome { get; set; }    // o get serve para obter (ler) o valor da propriedade, set serve para setar (atribuir) um novo valor à propriedade.
         public int Idade { get; set; }
 
-        public void Apresentar(){                     // método é uma ação que a classe pode realizar
+        public void Apresentar(string nome){                     // método é uma ação que a classe pode realizar
             Console.WriteLine($"Olá, meu nome é {Nome} e tenho {Idade} anos.");  // Estou chamando a claesse console e o método WriteLine 
         }                                   // Argumento ou Parametro: é o valor que passamos para o método quando o chamamos.
 

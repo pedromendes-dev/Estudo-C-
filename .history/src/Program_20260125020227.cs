@@ -13,6 +13,5 @@ Pessoa p = new Pessoa();    // Instanciando a classe Pessoa, criando um objeto p
 
 
 p.Nome = "Pedro";   // Acessando a propriedade Nome do objeto p e atribuindo o valor "Pedro"
-p.Idade = 20;      // Acessando a propriedade Idade do objeto p e atribuindo o valor 25
+p.Idade = 25;      // Acessando a propriedade Idade do objeto p e atribuindo o valor 25
 
-p.Apresentar();    // Chamando o método Apresentar do objeto p

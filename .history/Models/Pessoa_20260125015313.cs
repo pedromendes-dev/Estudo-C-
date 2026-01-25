@@ -32,7 +32,7 @@ namespace Curso_CSharp.Models    // Namespace é uma forma de organizar as class
 }   
 
 
-// Ela é um modelo. Ela representar uma planta de uma casa, ela representa uma construção de uma casa na vida real, mas a planta em si não é uma casa, ela define oque uma casa deve ter etc...
+// Ela é um modelo. Ela representar uma planta de uma casa, ela representa uma construção de um casa na vida real, mas a planta em si não é uma casa, ela define oque uma casa deve ter etc...
 // Lembrando um classe é uma representação de um objeto do mundo real no código.
 
 

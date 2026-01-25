@@ -12,7 +12,4 @@ Pessoa p = new Pessoa();    // Instanciando a classe Pessoa, criando um objeto p
 // Instanciar uma classe significa criar um objeto baseado nessa classe.
 
 
-p.Nome = "Pedro";   // Acessando a propriedade Nome do objeto p e atribuindo o valor "Pedro"
-p.Idade = 20;      // Acessando a propriedade Idade do objeto p e atribuindo o valor 25
-
-p.Apresentar();    // Chamando o método Apresentar do objeto p
+p.Nome
