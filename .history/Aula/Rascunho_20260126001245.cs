@@ -73,10 +73,7 @@ numero = 20;   // Sobrescreve
 
 
 
-
-
-
 }
-
-
-
+{
+   numero = 30;  // Sobrescreve novamente
+}

@@ -1,0 +1,2 @@
+// Case é padrão de escrita usado para nomear classes, métodos, variáveis, etc.
+// 

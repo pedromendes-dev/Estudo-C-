@@ -40,10 +40,6 @@ using System;
 
 
 
-//---------------------------------------------------------------------
-
-// Exemplo de Tipos Primitivos em C#
-
 // string apresentacao = "Olá, seja bem-vindo ao Curso de C#!";
 // int quantidadeDeAlunos = 1200;
 // double notaMedia = 8.5;
@@ -59,24 +55,6 @@ using System;
 // Console.WriteLine("Está Aprovado: " + estaAprovado);
 
 
-// Exemplo de Tratamento 
-// double altura = 1.75;
-// Console.WriteLine("Altura: " + altura.ToString("F2")); 
-
-
-//---------------------------------------------------------------------
-{
- int numero = 10;
-numero = 20;   // Sobrescreve 
- Console.WriteLine(numero);  // Output: 20
-
-
-
-
-
-
-
-}
-
-
-
+// Exemplo de formatação de números
+double altura = 1.75;
+Console.WriteLine("Altura: " + altura.ToString("F2")); 

@@ -64,19 +64,3 @@ using System;
 // Console.WriteLine("Altura: " + altura.ToString("F2")); 
 
 
-//---------------------------------------------------------------------
-{
- int numero = 10;
-numero = 20;   // Sobrescreve 
- Console.WriteLine(numero);  // Output: 20
-
-
-
-
-
-
-
-}
-
-
-

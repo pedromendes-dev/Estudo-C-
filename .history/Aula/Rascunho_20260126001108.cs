@@ -67,16 +67,13 @@ using System;
 //---------------------------------------------------------------------
 {
  int numero = 10;
-numero = 20;   // Sobrescreve 
+int numero = 20;   // Sobrescreve 
  Console.WriteLine(numero);  // Output: 20
 
 
 
 
-
-
-
 }
-
-
-
+{
+   
+}

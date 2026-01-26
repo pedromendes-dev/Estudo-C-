@@ -73,10 +73,6 @@ numero = 20;   // Sobrescreve
 
 
 
-
-
-
 }
 
-
-
+int numero = 10;

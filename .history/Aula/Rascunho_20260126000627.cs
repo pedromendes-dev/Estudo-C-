@@ -65,18 +65,7 @@ using System;
 
 
 //---------------------------------------------------------------------
-{
+
  int numero = 10;
-numero = 20;   // Sobrescreve 
- Console.WriteLine(numero);  // Output: 20
-
-
-
-
-
-
-
-}
-
-
-
+ numero = 20;
+ Console.WriteLine(numero);  // Sobrescreve o valor anterior 

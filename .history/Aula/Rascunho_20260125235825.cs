@@ -40,8 +40,6 @@ using System;
 
 
 
-//---------------------------------------------------------------------
-
 // Exemplo de Tipos Primitivos em C#
 
 // string apresentacao = "Olá, seja bem-vindo ao Curso de C#!";
@@ -60,23 +58,5 @@ using System;
 
 
 // Exemplo de Tratamento 
-// double altura = 1.75;
-// Console.WriteLine("Altura: " + altura.ToString("F2")); 
-
-
-//---------------------------------------------------------------------
-{
- int numero = 10;
-numero = 20;   // Sobrescreve 
- Console.WriteLine(numero);  // Output: 20
-
-
-
-
-
-
-
-}
-
-
-
+double altura = 1.75;
+Console.WriteLine("Altura: " + altura.ToString("F2")); 

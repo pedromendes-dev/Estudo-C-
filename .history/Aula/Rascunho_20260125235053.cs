@@ -40,43 +40,16 @@ using System;
 
 
 
-//---------------------------------------------------------------------
-
-// Exemplo de Tipos Primitivos em C#
-
 // string apresentacao = "Olá, seja bem-vindo ao Curso de C#!";
 // int quantidadeDeAlunos = 1200;
 // double notaMedia = 8.5;
 // char letra = 'A';
 // decimal valorDoProduto = 199.99m;
-// bool estaAprovado = true;
+
 
 // Console.WriteLine(apresentacao);
 // Console.WriteLine("Quantidade de Alunos: " + quantidadeDeAlunos);
 // Console.WriteLine("Nota Média: " + notaMedia);
 // Console.WriteLine("Letra: " + letra);
 // Console.WriteLine("Valor do Produto: " + valorDoProduto);
-// Console.WriteLine("Está Aprovado: " + estaAprovado);
-
-
-// Exemplo de Tratamento 
-// double altura = 1.75;
-// Console.WriteLine("Altura: " + altura.ToString("F2")); 
-
-
-//---------------------------------------------------------------------
-{
- int numero = 10;
-numero = 20;   // Sobrescreve 
- Console.WriteLine(numero);  // Output: 20
-
-
-
-
-
-
-
-}
-
-
 
