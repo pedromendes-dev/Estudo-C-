@@ -1,4 +1,5 @@
 using System;
+using System.Data;
 
 
 // // Class é apenas um molde para criar objetos, ela é apenas um container (molde) de métodos e propriedades
@@ -65,18 +66,39 @@ using System;
 
 
 //---------------------------------------------------------------------
-{
- int numero = 10;
-numero = 20;   // Sobrescreve 
- Console.WriteLine(numero);  // Output: 20
+// {
+//  int numero = 10;
+// numero = 20;   // Sobrescreve 
+//  Console.WriteLine(numero);  // Output: 20
+
+// // Quando você coloca o tipo vc está declarando ela. Quando vc não coloca o tipo vc está alterando o valor da variável já declarada anteriormente.
+
+// }
 
 
 
+//---------------------------------------------------------------------
+
+// Data e Hora em C# em tempo real 
+
+// DateTime dataAtual = DateTime.Now;  // Obtém a data e hora atuais (now = agora)
+// Console.WriteLine("Data e Hora Atuais: " + dataAtual);
 
 
+// DateTime dataAtual = DateTime.Now.AddDays(5);  // Adiciona 5 dias à data atual (5 dias a mais)
+// Console.WriteLine("Data e Hora Atuais: " + dataAtual);
 
 
-}
+// DateTime dataAtual = DateTime.Now   // Add seria para adicionar algo
+//     .AddHours(3)  // Adiciona 3 horas à data atual (3 horas a mais)
+//     .AddMinutes(30);  // Adiciona 30 minutos à data atual (30 minutos a mais)
+// Console.WriteLine("Data e Hora Atuais: " + dataAtual);
 
 
+// DateTime dataAtual = DateTime.Now.AddDays(5);
+// Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
+// // O ToString() é um método que converte um valor para texto (string).
+    
 
+
+//---------------------------------------------------------------------

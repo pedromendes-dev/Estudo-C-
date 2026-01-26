@@ -104,3 +104,14 @@ public class Cachorro : Animal {
 Observação: uma instância é um objeto criado a partir de uma classe (instanciar = criar um objeto a partir de uma classe). Um método `static` não está ligado a nenhum objeto específico, mas sim à própria classe.
 
 Construtor é um método especial que é chamado automaticamente quando você instancia (cria) uma classe. Ele serve para inicializar o objeto.
+
+---
+
+### Notas rápidas de estudo
+
+- Classes são moldes; o método `Main` é o ponto de entrada e roda sozinho, demais métodos precisam ser chamados manualmente.
+- Tipos básicos vistos: `string`, `int`, `double`, `char`, `decimal`, `bool`.
+- `ToString()` converte valores para texto; formatos úteis: `altura.ToString("F2")` (duas casas decimais) e `data.ToString("dd/MM/yyyy HH:mm")` para data/hora.
+- `DateTime` utilitário: `DateTime.Now` (agora), `.AddDays(n)`, `.AddHours(n)`, `.AddMinutes(n)` para ajustar datas.
+- Reatribuição de variáveis: declarar define o tipo (`int numero = 10;`); reatribuir altera só o valor (`numero = 20;`).
+- Instanciar classe (ex.: `Pessoa p = new Pessoa();`) cria um objeto; acessar membros com ponto (`p.Nome = "Pedro"; p.Apresentar();`).
