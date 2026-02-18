@@ -1,3 +1,16 @@
+/*
+inteiro bilhões
+long trilhões
+float ~7 dígitos (precisão simples)
+double ~15–16 dígitos (precisão dupla)
+decimal ~28–29 dígitos (financeiro)
+short pequeno
+byte muito pequeno
+bool verdadeiro/falso
+char um caractere
+string texto
+*/
+
 // TIPOS DE DADOS EM C#
 // Os tipos de dados definem o tipo de valor que uma variável pode armazenar.
 // Em C#, existem dois principais grupos: Tipos de Valor (Value Types) e Tipos de Referência (Reference Types)
